@@ -14,11 +14,60 @@
   border: 1px solid #000;
   margin: 10px 0;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .id-box {
   text-align: left;
   padding-right: 1vw;
+}
+.color {
+  border-color: #000;
+  border-width: thin;
+  border-style: solid;
+  color: white;
+  height: 10vh;
+  padding: 1vh;
+}
+.boxColor {
+  padding-bottom: 3px;
+}
+
+.cc-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14pt;
+  width: 30vw;
+  height: 30vh;
+  margin: 2vw;
+}
+
+.type-logo {
+  align-self: flex-end;
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+.card-number {
+  align-self: center;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+  font-size: 18pt;
+}
+
+.info-bank {
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+.info-name {
+  padding-top: 0;
+}
+.credit.box {
+  display: flex;
+  flex-direction: row;
+}
+.bank.name {
+  margin-left: 2vw;
 }
 /* .App-header {
   background-color: #282c34;
